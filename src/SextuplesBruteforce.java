@@ -20,7 +20,7 @@ public class SextuplesBruteforce {
                         if(arr[l]!=0){
                             for(int m=0; m<n; m++){
                                 for(int o=0; o<n; o++){
-                                    int lhs = ((arr[i] * arr[j] + arr[k]) / arr[l]) - arr[m];
+                                    double lhs = ((arr[i] * arr[j] + arr[k]) / arr[l]) - arr[m];
                                     if(lhs == arr[o]){
                                         ans++;
                                     }
